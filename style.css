@@ -1,12 +1,127 @@
-body {
+*{
     margin: 0;
-    background-color: rgb(211, 226, 191);
+}
+.header {
+ background-color: rgb(191, 228, 91);
+ padding: 1% 10%;
+ /* height: 400px; */
+
+
+
+}
+.nav-container {
+    display: flex;
+    
+
+    /* flex-direction: row; */
+}
+.sub-one {
+    background-color: mediumpurple;
+    height: 60px;
+    flex: 1;
+   
+}
+#logo {
+    margin-left: 5%;
+}
+.sub-two {
+    background-color: skyblue;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+}
+.sub-two ul {
+    display: flex;
+    font-size: 18px;
+    gap: 20px;
+    list-style-type: none;
+    
+}
+.header-container {
+    background-color: rgb(68, 233, 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    padding: 5% 0;
+    gap: 10px;
+    height: 50vh;
+   
+    
+    
+}
+.left {
+    background-color: rgb(90, 155, 74);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex: 1;
+    gap: 1px;
+    padding-left: 5%;
+    height: 100%;
+    overflow: auto;
+    
+    
+}
+.left h1{
+    font-size: 58px;
+    color: antiquewhite;
+}
+.left p {
+    color: antiquewhite;
+    text-align: left;
+   
+}
+.right {
+    background-color: lavender;
+    flex: 1;
+    height: 100%;
+    overflow: auto;
+    
+}
+.hero-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 60%;
+    margin: auto;
 }
 
-nav {
-    
-    background-color: rgb(206, 214, 137);
+
+
+
+
+
+
+
+
+.two {
+    background-color: cadetblue;
+    height: 400px;
+    flex: 1;
 }
-nav ul{
-    margin: 0;
+
+.three {
+    background-color: crimson;
+    height: 300px;
+    flex: 1;
+}
+
+.four {
+    background-color: chocolate;
+    height: 400px;
+}
+
+.five {
+    background-color: blueviolet;
+    height: 300px;
+}
+
+.six {
+    background-color: gold;
+    height: 200px;
 }
