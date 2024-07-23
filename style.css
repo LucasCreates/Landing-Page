@@ -15,6 +15,10 @@ body {
 *{
     margin: 0;
 }
+
+img {
+    border-radius: 5px;
+}
 .header {
  background-color: rgb(115, 122, 87);
 }
@@ -200,6 +204,7 @@ body {
     height: 200px;
     width: 200px;
     text-align: center;
+  
 }
 .container-text {
     text-align: center;
